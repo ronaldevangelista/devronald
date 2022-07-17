@@ -1,0 +1,59 @@
+/*Barra de navegação*/
+header {
+    position: relative;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-flow: row flex-start;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;;
+}
+
+header h1 {
+    color: #fa0078;
+    font-family: 'Segoe UI';
+}
+
+nav {
+    margin: 5px;
+}
+
+nav a {
+    border-left: 1px black solid;
+    padding: 0px 4px;
+}
+
+header img {
+    height: 5em;
+    width: 5em;
+}
+
+/*Corpo dividido em duas partes. Principal e Aba lateral*/
+#home-content {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    border-right: solid black 2px;
+    padding: 0px 25px 0px 0px;
+    min-width: 600px;
+    max-width: 820px;
+    max-height: 1080px;
+    margin-left: 5px;
+}
+
+body section h1, body section p {
+    word-wrap: normal;
+    text-align: justify;
+}
+
+div aside {
+    min-width: 200px;
+    max-width: 340px;
+    margin: 5px 25px;
+    text-align: justify;
+}
