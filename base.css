@@ -7,11 +7,12 @@ header {
     flex-flow: row flex-start;
     align-items: center;
     justify-content: space-between;
-    font-family: sans-serif;;
+    font-family: sans-serif;
+    background-color: #fa0078;
 }
 
 header h1 {
-    color: #fa0078;
+    color: white;
     font-family: 'Segoe UI';
 }
 
@@ -27,6 +28,9 @@ nav a {
 header img {
     height: 5em;
     width: 5em;
+    margin-left: 10px;
+    border-radius: 100px;
+    background-color: white;
 }
 
 /*Corpo dividido em duas partes. Principal e Aba lateral*/
@@ -38,7 +42,6 @@ header img {
 }
 
 section {
-    border-right: solid black 2px;
     padding: 0px 25px 0px 0px;
     min-width: 600px;
     max-width: 820px;
@@ -55,5 +58,7 @@ div aside {
     min-width: 200px;
     max-width: 340px;
     margin: 5px 25px;
+    padding: 0px 5px 10px 15px;
     text-align: justify;
+    border-left: solid black 2px;
 }
