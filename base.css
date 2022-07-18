@@ -4,7 +4,7 @@ header {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     display: flex;
-    flex-flow: row flex-start;
+    flex-flow: row;
     align-items: center;
     justify-content: space-between;
     font-family: sans-serif;
@@ -17,12 +17,32 @@ header h1 {
 }
 
 nav {
-    margin: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    min-width: 410px;
+    max-width: 500px;
 }
 
 nav a {
     border-left: 1px black solid;
     padding: 0px 4px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav a:any-link {
+    color: Black;
+    text-decoration: none;
+}
+
+nav i {
+    margin-right: 3px;
+    Color: white;
+    font-size: 12px;
+    text-shadow: 0.5px;
 }
 
 header img {
